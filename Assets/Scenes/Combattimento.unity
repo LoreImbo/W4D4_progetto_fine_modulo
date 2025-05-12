@@ -166,10 +166,10 @@ MonoBehaviour:
     weakness: 2
     weapon:
       name: Cappello
-      dmgType: 0
+      dmgType: 1
       elem: 3
       bonusStats:
-        atk: 1
+        atk: 10
         def: 1
         res: 1
         spd: 1

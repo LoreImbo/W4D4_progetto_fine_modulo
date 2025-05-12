@@ -2,8 +2,10 @@ using UnityEngine;
 
 public class M1ProjectTest : MonoBehaviour
 {
-    public Hero a;
-    public Hero b;
+    [SerializeField]
+    private Hero a;
+    [SerializeField]
+    private Hero b;
     // Start is called before the first frame update
     void Start()
     {
