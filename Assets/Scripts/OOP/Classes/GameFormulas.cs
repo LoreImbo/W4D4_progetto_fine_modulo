@@ -23,7 +23,6 @@ public static class GameFormulas
 
     public static bool HasHit(Stats attacker, Stats defender)
     {
-        // se fossero double --> int hitChance = (int)Math.Round((double)(attacker.aim - defender.eva), 0, MidpointRounding.AwayFromZero);
         int hitChance = attacker.aim - defender.eva;
         if (Random.Range(0,100) > hitChance)
         {

@@ -39,7 +39,7 @@ public class Hero
         if (!string.IsNullOrEmpty(name))
             this.name = name;
     }
-    public void SetHp(int hp) => this.hp = hp;
+    public void SetHp(int hp) => this.hp = Mathf.Max(0,hp);
     public void SetBaseStats(Stats baseStats) => this.baseStats = baseStats;
     public void SetResistance(ELEMENT resistance) => this.resistance = resistance;
     public void SetWeakness(ELEMENT weakness) => this.weakness = weakness;
